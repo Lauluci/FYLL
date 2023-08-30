@@ -1,0 +1,214 @@
+/*
+esto es un comentario
+
+selector{
+propiedad:valor;
+propiedad:valor; 
+propiedad:valor;
+...
+}
+*/
+P{ color: grey;
+    }
+body { 
+    background-image: url(img/cuadrille_Pastel2.jpg);
+}
+header,main,footer {
+    background: white;
+    padding: 10px;
+}
+@font-face 
+ font-family:'Birthday'
+src: url (font/Birthday.ttf)format('truetype');
+
+@font-face 
+ font-family:'reailge'
+src: url (font/reailge.otf)format('opentype');
+    
+@font-face 
+ font-family:'Lamarkie'
+src: url (font/Lamarkie.otf)format('opentype');
+
+h1 {
+ font-family: 'reailge';
+     font-size: 150px;
+    margin-bottom: 0;
+    color: #FF914D;
+}
+header {
+  background-color: white;
+  padding: 5px;
+}
+
+header img {
+  width:5px; /* Ancho de la imagen */
+  height: auto; /* Altura se ajustará automáticamente para mantener la proporción */
+  display: block; /* Evita espacios debajo de la imagen */
+  margin-left: 85px; /* Centra horizontalmente la imagen */
+
+}
+.header-with-overlay {
+  position: relative; /* Establece el contexto de posicionamiento para el contenedor */
+  background-color: white;
+  padding: 5px;
+}
+
+.header-with-overlay h1 {
+  font-size: 50px;
+  position: relative; /* Asegura que el h1 mantenga su posición relativa */
+  z-index: 5; /* Define el orden de apilamiento, un valor mayor que el de la imagen */
+}
+
+.header-with-overlay img {
+  position: absolute; /* Posición absoluta para superponer la imagen */
+  top: 0;
+  left: 0;
+  width: 3%; /* O ajusta el ancho según sea necesario */
+  z-index: 1; /* Define el orden de apilamiento, un valor menor que el del h1 */
+  opacity: 0.7; /* Cambia la opacidad de la imagen para que no oculte completamente el h1 */
+}
+
+h2{
+ font-family: 'Lamarkie';  
+    font-size: 5px;
+    margin-left: 8px;
+    margin-bottom: 0;
+    
+}
+h1 h2{
+    margin: 10;
+}
+h3  
+{margin:10px;
+    font-family: 'Lamarkie';
+    }
+nav {
+    font-size: 10px;
+  text-align: right;
+    font-family: 'Lamarkie';
+}
+nav ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li {
+ display: inline-block;
+    border-right:1px solid black;
+    padding:5px;
+}
+body{
+    font-family:sans-serif;
+}
+p{
+    text-align: justify;
+   }
+h4 { font-size: 10px;
+    font-family: 'Lamarkie';
+    
+}
+ .imagen { 
+     width: 100%;
+    height: 300px;
+    background:rgb (220,220,220);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding:30px;
+     margin-bottom: 20px;
+         }
+article {
+    margin-top: 20px;
+}
+}
+.video{
+    background: url("video/fyllfinal.mp4");
+     background-size: cover;
+    background-position: center center;
+     padding:30px;
+}
+footer{
+    list-style-type:none;
+    padding:30px;
+   text-decoration:none;
+text-transform:uppercase; 
+    text-align: right
+}
+
+li a {
+    color:#17120c;
+text-decoration:none;
+text-transform:uppercase;
+font-weight:bold;
+}
+footer li {
+    display:inline-block;
+    margin-left:30px;
+}
+
+  .content-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.video-container {
+  flex: 1;
+  padding-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la proporción del video manteniendo la relación de aspecto */
+}
+/* Reset básico de márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Resto de tus estilos */
+header, footer, main {
+    max-width: 1000px;
+    margin:auto;
+}
+@media only screen and (min-width: 600px) {
+    article{
+        box-sizing:border-box;
+        display:inline-block;
+        width:50%;
+        padding:20px;
+        vertical-align:top;
+    }
+}
+.menu {
+  
+  display: inline-block;
+    margin-left: 30px;
+}
+
+
+
+.menu a {
+  font-size: 10px;
+  
+  background-image: linear-gradient(to right, #FF914D, #FFDE59, #FF9F9F,#F96E74);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-decoration: none;
+}
+
+
+
+
