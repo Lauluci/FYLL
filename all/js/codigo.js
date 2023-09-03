@@ -23,7 +23,6 @@ fetch("json/articulos.json").then(function (e) {
         }
     }
     if (partido[0].split("?")[1] == "p") {
-        document.getElementById("articulos").innerHTML += "Voy a cargar una página que se llama: " + partido[1];
         // Carga una pagina HTML
         fetch('paginas/' + partido[1] + '.html').then(function (response) {
             return response.text();

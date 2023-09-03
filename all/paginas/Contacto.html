@@ -1,2 +1,24 @@
-<h1>Esta es la pagina de Contacto</h1>
-<p>Este es el texto de Contacto</p>
+<h1>Escríbenos!!</h1>
+<form>
+    <div class="f50">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="p.ej: Juan Perez" required minlength=5>
+    </div>
+    <div class="f50">
+        <label for="email">Indícame tu correo electrónico</label>
+         <input type="email" name="email" placeholder="p.ej: info@jocarsa.com" required>
+    </div>
+    <div class="f100">
+        <label for="mensaje">Dejame tu mensaje</label>
+        <textarea name="mensaje"></textarea>
+    </div>
+    <div class="f50">
+        <label for="motivo">Indícame el motivo de tu mensaje</label>
+        <input type="checkbox" name="motivo">Comentario
+        <input type="checkbox" name="motivo">Compra
+        <input type="checkbox" name="motivo">Devolución
+        <input type="checkbox" name="motivo">Otros
+               
+    </div>
+    <input type="submit">
+</form>
