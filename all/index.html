@@ -1,10 +1,10 @@
-<!-- web de Lau oliva -->
 <!doctype html>
 <html lang="es">
 <head>
     <title>FYLL</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="estilo.css" >
+     <link rel="icon" type="image/x-icon" href="FYLLLOGOgris.ico">
     <script src="js/codigo.js"></script>
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     </head>
@@ -12,42 +12,49 @@
    <header>
     <header class="header-with-overlay">
      <div class="menu-container">
- <h1>FYLL</h1>
-     <img src="imagenes/Dise%C3%B1o%20sin%20t%C3%ADtulo.png" alt="Dise%C3%B1o%20sin%20t%C3%ADtulo">
-  <!-- Otro contenido del encabezado si es necesario --> 
-
-      <h2></h2> 
-      <nav>
-        <ul class="menu">
-  
-            <li><a href="?">Inicio</a></li>
-  <li><a href="?p=Tienda">Tienda</a></li>
-  <li><a href="?p=Novedades">Novedades</a></li>
-  <li><a href="?p=Contacto">Contacto</a></li>
-</ul>
+      <img src="img/FYLLLfyll.png" id="logo">
+      <div class="clearfix"></div>
+        <nav>
+          <ul class="menu">
+        
+         <li><img src="img/hamburguesa.png" id="hamburguesa"></li>
+         <li><a href="?">Home</a></li>
+         <li><a href="?p=Nosotros">Nosotros</a></li>
+         <li><a href="?p=Hoddies">Hoddies</a></li>
+         <li><a href="?p=Accesorios">Accesorios</a></li>
+         <li><a href="?p=Contacto">Contacto</a></li>
+    </ul>
      </nav> 
+               <script src="js/menuresponsivo.js"></script>
+
         </div> 
           </header>
+          
    </header> 
     <main>
-     <section id="pancarta">
-          <h3></h3>
-      </section>
+    
      <div class="content-container">
        <div class="video-container">
-         <video src="video/fyllfinal.mp4" autoplay muted id= "video"></video>
+         <video src="video/portada1.mp4" autoplay muted id= "video"></video>
        </div>
        </div>
        <section id="articulos">      
-           <h3>NOVEDADES</h3>
-     </section>   
+           <h3></h3>
+     </section> 
+         <div id="paginador">
+                <button id="anterior"><img src="img/anterior.svg"></button>
+                <p id="numpagina"></p>
+                <button id="siguiente"><img src="img/siguiente.svg"></button>
+            </div> 
          </main>
     <footer> 
     <hr class="linea-horizontal">
     <ul>   
-    <li>  <a href="https://www.facebook.com/lau.oliva.16/">   Facebook</a> </li>
-                <li>  <a href="https://www.instagram.com/mlaulu/">  Instagram</a>  </li>
-                <li> <a href="https://www.youtube.com/watch?v=QYh6mYIJG2Y&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbA&index=4"> Youtube</a> </li>
+    <li>  <a href="https://www.facebook.com/lau.oliva.16/"> <img src="img/face.png"></a> </li>
+                <li>  <a href="https://www.instagram.com/mlaulu/"> <img src="img/insta.png"></a>  </li>
+                <li>  <a href="https://www.instagram.com/mlaulu/"> <img src="img/linke.png"></a>  </li>
+                <li>  <a href="https://www.instagram.com/mlaulu/"> <img src="img/snap.png"></a>  </li>
+                <li> <a href="https://www.youtube.com/watch?v=QYh6mYIJG2Y&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbA&index=4"><img src="img/you.png"></a> </li>
                 </ul>
                <h6>(c) 2023 lau Oliva</h6>       
     </footer>

@@ -1,6 +1,163 @@
 {
   "articulos":[
     {
+      "titulo": "PERFECTA",
+      "imagen": "perfectaenbuzonegro.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "You are",
+      "imagen": "youarebuzo.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+     {
+      "titulo": "PERSPECTIVA",
+      "imagen": "BUZOPERSPECTIVA.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "e2l_v_KZGro?si=0E2ACFEoDYnuDDXd"
+    },
+    {
+      "titulo": "U´VE GOT THIS",
+      "imagen": "youvegotthisbuzo.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "END",
+      "imagen": "endbuzo.png",
+      "texto": "Talle X -  M - l  ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "It´s not me",
+      "imagen": "itsyoubuzo.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+      
+    {
+      "titulo": "FUTURO",
+      "imagen": "futurobuzo.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+  },
+    {
+      "titulo": "HAPPINESS FOUND HERE",
+      "imagen": "happinesfoudherebuzo.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "ALAS",
+      "imagen": "alasbuzobordo.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "LIMITED EDITION",
+      "imagen": "limitededitionbuzo.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+      {
+      "titulo": "MARIPOSA ENTERA",
+      "imagen": "mariposaentera.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+      {
+      "titulo": "ATTITUDE",
+      "imagen": "attitudebuzo.png",
+      "texto": "Talle X -  M - l ",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+      {
+      "titulo": "HAPPINESS",
+      "imagen": "happinesfoudherebuzogrey.png",
+      "texto": "Talle X -  M - l",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+       {
+      "titulo": "Perspectiva black",
+      "imagen": "perspectivabuzoblanco.png",
+      "texto": "Talle M L XL",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "ATTITUDE AZUL",
+      "imagen": "attitudebuzoazul.png",
+      "texto": "Talle M L XL"
+    },
+     {
+      "titulo": "SPAIN",
+      "imagen": "spain.png",
+      "texto": "Talle M L XL",
+        "codigovideo": "e2l_v_KZGro?si=0E2ACFEoDYnuDDXd"
+    },
+    {
+      "titulo": "YOU ARE YOUR ONLY LIMIT",
+      "imagen": "youarebuzoo.png",
+      "texto": "Talle M L XL",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "limited edition 2",
+      "imagen": "limited edition2.png",
+      "texto": "Talle M L XL",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "GIFTS CARDS",
+      "imagen": "image6.jpg",
+      "texto": "INGREDIENTES Es la combinación de una serie de movimientos fuertes y suaves con el fin de llegar a las capas más profundas de los músculos y al tejido conectivo que se encarga de sostener y proteger los órganos. Su función es eliminar las tensiones musculares en deportistas o personas que padecen dolores musculares crónicos, malas posturas y estrés.",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+      
+    {
+      "titulo": "NOTICIA",
+      "imagen": "image7.jpg",
+      "texto": "INGREDIENTES Es la combinación de una serie de movimientos fuertes y suaves con el fin de llegar a las capas más profundas de los músculos y al tejido conectivo que se encarga de sostener y proteger los órganos. Su función es eliminar las tensiones musculares en deportistas o personas que padecen dolores musculares crónicos, malas posturas y estrés.",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+  },
+    {
+      "titulo": "NOTICIA",
+      "imagen": "image8.jpg",
+      "texto": "INGREDIENTES Es la combinación de una serie de movimientos fuertes y suaves con el fin de llegar a las capas más profundas de los músculos y al tejido conectivo que se encarga de sostener y proteger los órganos. Su función es eliminar las tensiones musculares en deportistas o personas que padecen dolores musculares crónicos, malas posturas y estrés",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "NOTICIA",
+      "imagen": "image9.jpg",
+      "texto": "INGREDIENTES Es la combinación de una serie de movimientos fuertes y suaves con el fin de llegar a las capas más profundas de los músculos y al tejido conectivo que se encarga de sostener y proteger los órganos. Su función es eliminar las tensiones musculares en deportistas o personas que padecen dolores musculares crónicos, malas posturas y estrés.",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+    {
+      "titulo": "NOTICIA",
+      "imagen": "image9.jpg",
+      "texto": "INGREDIENTES Es la combinación de una serie de movimientos fuertes y suaves con el fin de llegar a las capas más profundas de los músculos y al tejido conectivo que se encarga de sostener y proteger los órganos. Su función es eliminar las tensiones musculares en deportistas o personas que padecen dolores musculares crónicos, malas posturas y estrés",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+      {
+      "titulo": "ARTICULO NUEVO",
+      "imagen": "image9.jpg",
+      "texto": "INGREDIENTES Es la combinación de una serie de movimientos fuertes y suaves con el fin de llegar a las capas más profundas de los músculos y al tejido conectivo que se encarga de sostener y proteger los órganos. Su función es eliminar las tensiones musculares en deportistas o personas que padecen dolores musculares crónicos, malas posturas y estrés.",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+      {
+      "titulo": "ARTICULO NUEVO",
+      "imagen": "image9.jpg",
+      "texto": "INGREDIENTES Es la combinación de una serie de movimientos fuertes y suaves con el fin de llegar a las capas más profundas de los músculos y al tejido conectivo que se encarga de sostener y proteger los órganos. Su función es eliminar las tensiones musculares en deportistas o personas que padecen dolores musculares crónicos, malas posturas y estrés",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+      {
+      "titulo": "ARTICULO NUEVO",
+      "imagen": "image9.jpg",
+      "texto": "INGREDIENTES Es la combinación de una serie de movimientos fuertes y suaves con el fin de llegar a las capas más profundas de los músculos y al tejido conectivo que se encarga de sostener y proteger los órganos. Su función es eliminar las tensiones musculares en deportistas o personas que padecen dolores musculares crónicos, malas posturas y estrés",
+        "codigovideo": "bd2NIVtmxQM?si=LvY2tdRq2L-ArUsQ"
+    },
+       {
       "titulo": "NOTICIA",
       "imagen": "image1.jpg",
       "texto": "INGREDIENTES Es la combinación de una serie de movimientos fuertes y suaves con el fin de llegar a las capas más profundas de los músculos y al tejido conectivo que se encarga de sostener y proteger los órganos. Su función es eliminar las tensiones musculares en deportistas o personas que padecen dolores musculares crónicos, malas posturas y estrés",
