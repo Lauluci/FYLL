@@ -19,7 +19,7 @@ fetch("json/articulos.json")
     const partido = miurl.split("=");
 
     // En el caso de que el segundo elemento no exista
-    if (!partido[1] || partido[1] === "Home") {
+    if (!partido[1] || partido[1] === "Hoddies") {
       // Pintar TODOS los artículos
       for (var i = 0; i < numerodearticulos; i++) {
         document.getElementById("articulos").innerHTML += `
@@ -36,23 +36,22 @@ fetch("json/articulos.json")
 
     // Si hay una página especificada
     if (partido[0].split("?")[1] === "p") {
-      const pageName = partido[1];
-      document.getElementById("articulos").innerHTML = "Voy a cargar una página que se llama: " + pageName;
+      document.getElementById("articulos").innerHTML += "Voy a cargar una página que se llama: " + partido[1];
       // Cargar una página HTML
-      fetch('paginas/' + pageName + '.html')
+      fetch('paginas/' + partido[1] + '.html')
         .then(function(response) {
-          if (!response.ok) {
-            throw new Error('Error al cargar la página');
-          }
           return response.text();
         })
         .then(function(html) {
           // Convertir el contenido en HTML
-          document.getElementById("articulos").innerHTML = html;
+          var parser = new DOMParser();
+          var doc = parser.parseFromString(html, 'text/html');
+          // Lanzar por pantalla
+          console.log(doc);
+          document.getElementById("articulos").innerHTML += doc.documentElement.innerHTML;
         })
         .catch(function(error) {
           console.error("Error al cargar la página:", error);
-          document.getElementById("articulos").innerHTML = "<p>Error al cargar la página. Por favor, inténtelo de nuevo más tarde.</p>";
         });
     }
 
